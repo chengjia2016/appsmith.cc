@@ -2196,7 +2196,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 16.546875,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onFilesSelected"
+                }
+              ],
               "leftColumn": 42,
               "dynamicBindingPathList": [
                 {
@@ -2208,6 +2212,7 @@
               ],
               "isDisabled": false,
               "key": "ds2tjdcta9",
+              "onFilesSelected": "{{Api1.run(() => showAlert('ok'), () => {})}}",
               "isRequired": false,
               "rightColumn": 58,
               "isDefaultClickDisabled": true,

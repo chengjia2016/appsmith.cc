@@ -33,7 +33,8 @@
       "bodyFormData": [
         {
           "key": "img",
-          "value": "{{FilePicker1.files}}"
+          "value": "{{FilePicker1.files}}",
+          "type": "TEXT"
         }
       ],
       "httpMethod": "PUT",
