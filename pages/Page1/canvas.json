@@ -2230,7 +2230,7 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "files": [],
-              "maxNumFiles": 1
+              "maxNumFiles": "1"
             }
           ]
         },
