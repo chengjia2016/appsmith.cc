@@ -2277,7 +2277,24 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Page1_SelectQuery",
+              "name": "SelectQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(Table1.pageNo - 1) * Table1.pageSize",
+                "Table1.searchText || \"\"",
+                "col_select.selectedOptionValue",
+                "Table1.pageSize",
+                "order_select.selectedOptionValue"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "widgetNames": [
           "Alert_text",
           "Button1",
