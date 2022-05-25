@@ -33,7 +33,7 @@
       "bodyFormData": [
         {
           "key": "img",
-          "value": "{{FilePicker1.files}}",
+          "value": "{{FilePicker1.files[0].data}}",
           "type": "TEXT"
         }
       ],
@@ -48,12 +48,16 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "bodyFormData[0].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "FilePicker1.files",
+      "FilePicker1.files[0].data",
       "{}"
     ],
     "userSetOnLoad": false,
