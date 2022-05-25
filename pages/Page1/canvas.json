@@ -175,13 +175,16 @@
                           "key": "primaryColumns.exp.computedValue"
                         },
                         {
-                          "key": "primaryColumns.avatar.computedValue"
-                        },
-                        {
                           "key": "primaryColumns.lang.computedValue"
                         },
                         {
                           "key": "primaryColumns.sex.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.avatar.displayText"
+                        },
+                        {
+                          "key": "primaryColumns.avatar.computedValue"
                         }
                       ],
                       "leftColumn": 0,
@@ -512,7 +515,8 @@
                           "label": "avatar",
                           "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.avatar))}}",
                           "cellBackground": "",
-                          "iconName": ""
+                          "iconName": "",
+                          "displayText": "{{Table1.sanitizedTableData.map((currentRow) => ( '<img src=' + currentRow.avatar + '></img>'))}}"
                         },
                         "lang": {
                           "index": 16,
