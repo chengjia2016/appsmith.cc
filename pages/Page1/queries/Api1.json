@@ -37,7 +37,7 @@
           "type": "TEXT"
         }
       ],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "pluginSpecifiedTemplates": [
         {
           "value": true
