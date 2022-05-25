@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO user (\n\tname, \n\tage,\n\tregional, \n\tlastlogin\n)\nVALUES (\n\t\t\t\t{{insert_col_input2.text}}, \n\t\t\t\t{{insert_col_input3.text}}, \n\t\t\t\t{{insert_col_input4.text}}, \n\t\t\t\t{{insert_col_input5.text}}\n);",
+      "body": "INSERT INTO user (\n\tname, \n\tage,\n\tregional\n)\nVALUES (\n\t\t\t\t{{insert_col_input2.text}}, \n\t\t\t\t{{insert_col_input3.text}}, \n\t\t\t\t{{insert_col_input4.text}}\n);",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -26,14 +26,18 @@
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
       "insert_col_input2.text",
       "insert_col_input3.text",
-      "insert_col_input4.text",
-      "insert_col_input5.text"
+      "insert_col_input4.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

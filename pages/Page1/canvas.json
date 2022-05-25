@@ -1659,10 +1659,10 @@
                       "leftColumn": 19,
                       "dynamicBindingPathList": [
                         {
-                          "key": "defaultText"
+                          "key": "accentColor"
                         },
                         {
-                          "key": "accentColor"
+                          "key": "defaultText"
                         }
                       ],
                       "labelStyle": "",
@@ -1683,7 +1683,7 @@
                       "isLoading": false,
                       "borderRadius": "0px",
                       "iconAlign": "left",
-                      "defaultText": "{{Table1.selectedRow.lastlogin}}"
+                      "defaultText": "{{Form1.data.Text26.replace(\"Z\",\"\")}}"
                     },
                     {
                       "boxShadow": "none",
@@ -2073,6 +2073,49 @@
                       "borderRadius": "0px",
                       "iconAlign": "left",
                       "defaultText": "{{Table1.selectedRow.pass}}"
+                    },
+                    {
+                      "widgetName": "Text26",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 38,
+                      "bottomRow": 42,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "overflow": "NONE",
+                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "parentColumnSpace": 6.3134765625,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "fontFamily"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "{{Table1.selectedRow.lastlogin.replace(\"T\",\" \")}}",
+                      "key": "2030ytqdko",
+                      "rightColumn": 17,
+                      "textAlign": "LEFT",
+                      "widgetId": "ts7s7n5xv1",
+                      "isVisible": false,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "cicukwhp5j",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "fontSize": "1rem"
                     }
                   ]
                 }
@@ -2285,6 +2328,7 @@
           "Text23",
           "Text24",
           "Text25",
+          "Text26",
           "Text9",
           "add_btn",
           "col_select",
