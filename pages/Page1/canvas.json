@@ -2301,14 +2301,11 @@
                 },
                 {
                   "key": "borderRadius"
-                },
-                {
-                  "key": "text"
                 }
               ],
               "shouldTruncate": false,
               "truncateButtonColor": "#FFC13D",
-              "text": "{{appsmith.store.imgname}}",
+              "text": "",
               "key": "yfw2tof29y",
               "rightColumn": 57,
               "textAlign": "LEFT",
