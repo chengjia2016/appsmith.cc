@@ -2181,6 +2181,49 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0px"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "FilePicker1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "FilePicker",
+              "iconSVG": "/static/media/icon.7c5ad9c3.svg",
+              "topRow": 60,
+              "bottomRow": 64,
+              "parentRowSpace": 10,
+              "allowedFileTypes": [],
+              "type": "FILE_PICKER_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 16.546875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 42,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "isDisabled": false,
+              "key": "ds2tjdcta9",
+              "isRequired": false,
+              "rightColumn": 58,
+              "isDefaultClickDisabled": true,
+              "widgetId": "lr4by5ifvi",
+              "isVisible": true,
+              "label": "Select Files",
+              "maxFileSize": "50",
+              "version": 1,
+              "fileDataType": "Base64",
+              "parentId": "0",
+              "selectedFiles": [],
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "files": [],
+              "maxNumFiles": 1
             }
           ]
         },
@@ -2215,6 +2258,7 @@
           "Container2",
           "Delete_Button",
           "Delete_Modal",
+          "FilePicker1",
           "Form1",
           "Form2",
           "Insert_Modal",
