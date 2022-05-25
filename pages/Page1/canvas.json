@@ -1542,7 +1542,7 @@
                               "key": "0equv9lg65",
                               "validation": "true",
                               "labelTextSize": "0.875rem",
-                              "isRequired": true,
+                              "isRequired": false,
                               "onTextChanged": "",
                               "rightColumn": 62,
                               "widgetId": "0l0coczf07",
