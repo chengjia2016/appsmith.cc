@@ -500,7 +500,7 @@
                           "id": "avatar",
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
-                          "columnType": "text",
+                          "columnType": "image",
                           "textColor": "",
                           "textSize": "0.875rem",
                           "enableFilter": true,
@@ -511,7 +511,8 @@
                           "isDerived": false,
                           "label": "avatar",
                           "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.avatar))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "iconName": ""
                         },
                         "lang": {
                           "index": 16,
