@@ -22,6 +22,10 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Page1_Query1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Page1_SelectQuery": {
       "unpublishedUserSetOnLoad": true,
       "publishedUserSetOnLoad": true

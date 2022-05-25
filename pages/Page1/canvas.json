@@ -2233,7 +2233,11 @@
               "boxShadow": "none",
               "widgetName": "FilePicker1",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "onFilesSelected"
+                }
+              ],
               "displayName": "FilePicker",
               "iconSVG": "/static/media/icon.7c5ad9c3.svg",
               "topRow": 60,
@@ -2251,7 +2255,7 @@
                   "key": "onFilesSelected"
                 }
               ],
-              "leftColumn": 42,
+              "leftColumn": 41,
               "dynamicBindingPathList": [
                 {
                   "key": "buttonColor"
@@ -2262,13 +2266,13 @@
               ],
               "isDisabled": false,
               "key": "ds2tjdcta9",
-              "onFilesSelected": "{{Api1.run(() => showAlert('upload ok!'), () => {})}}",
+              "onFilesSelected": "{{Api1.run(() => showAlert('upload ok!' + appsmith.store.img), () => update_avatar())}}",
               "isRequired": false,
               "rightColumn": 61,
               "isDefaultClickDisabled": true,
               "widgetId": "lr4by5ifvi",
               "isVisible": true,
-              "label": "Select Files",
+              "label": "upload img",
               "maxFileSize": "50",
               "version": 1,
               "fileDataType": "Base64",

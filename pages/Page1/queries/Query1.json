@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "update_avatar",
+    "name": "Query1",
     "datasource": {
       "name": "Untitled Datasource",
       "pluginId": "mysql-plugin",
@@ -15,10 +15,8 @@
     },
     "pageId": "Page1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE user SET avatar =\"http://www.waijiao.live/s/upload/\"{{appsmith.store.img}}.{{FilePicker1.files[0].type.data}}\n  WHERE uid={{Table1.selectedRow.uid}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
@@ -26,25 +24,16 @@
       ]
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "FilePicker1.files[0].type.data",
-      "Table1.selectedRow.uid",
-      "appsmith.store.img"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_update_avatar",
+  "id": "Page1_Query1",
   "deleted": false,
-  "gitSyncId": "627672eb5984be5f57851977_628e28ed7901344ba8d29153"
+  "gitSyncId": "627672eb5984be5f57851977_628e382c7901344ba8d29732"
 }
