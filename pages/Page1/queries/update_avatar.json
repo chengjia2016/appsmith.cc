@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE user SET avatar =\"http://www.waijiao.live/s/upload/\"{{appsmith.store.img}}.{{FilePicker1.files[0].type.data}}\n  WHERE uid={{Table1.selectedRow.uid}}",
+      "body": "UPDATE user SET avatar =\"http://www.waijiao.live/s/upload/{{appsmith.store.img}}.{{FilePicker1.files[0].type.data}}\"\n  WHERE uid={{Table1.selectedRow.uid}}",
       "pluginSpecifiedTemplates": [
         {
           "value": true
