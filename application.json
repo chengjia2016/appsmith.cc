@@ -4,6 +4,12 @@
   "unreadCommentThreads": 0,
   "color": "#E4D8CC",
   "icon": "bicycle",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,

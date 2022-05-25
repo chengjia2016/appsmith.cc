@@ -35,6 +35,11 @@
           "key": "img",
           "value": "{{FilePicker1.files[0].data}}",
           "type": "TEXT"
+        },
+        {
+          "key": "name",
+          "value": "{{appsmith.store.img}}",
+          "type": "TEXT"
         }
       ],
       "httpMethod": "POST",
@@ -51,6 +56,9 @@
     "dynamicBindingPathList": [
       {
         "key": "bodyFormData[0].value"
+      },
+      {
+        "key": "bodyFormData[1].value"
       }
     ],
     "isValid": true,
@@ -58,6 +66,7 @@
     "messages": [],
     "jsonPathKeys": [
       "FilePicker1.files[0].data",
+      "appsmith.store.img",
       "{}"
     ],
     "userSetOnLoad": false,

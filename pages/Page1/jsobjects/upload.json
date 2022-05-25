@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "upload",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1:\"\",\n\tmyVar2: {},\n\tmyFun1: () => {\n\treturn  _.random(10000, 52897836336563);\n\t},\n\t//myFun2: async () => {\n\t\t//use async-await or promises\n\t//}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": []
+      },
+      {
+        "name": "myVar2",
+        "value": {}
+      }
+    ]
+  },
+  "id": "Page1_upload",
+  "deleted": false,
+  "gitSyncId": "627672eb5984be5f57851977_628e2df17901344ba8d292cc"
+}
