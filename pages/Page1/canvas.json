@@ -671,7 +671,7 @@
                           "key": "text"
                         }
                       ],
-                      "text": "user Data v{{appsmith.user.name}}",
+                      "text": "user Data {{appsmith.user.name}}",
                       "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "textAlign": "LEFT",
