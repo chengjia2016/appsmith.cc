@@ -666,8 +666,12 @@
                       "overflow": "NONE",
                       "fontFamily": "System Default",
                       "leftColumn": 0,
-                      "dynamicBindingPathList": [],
-                      "text": "user Data  1112233",
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "text"
+                        }
+                      ],
+                      "text": "user Data v{{appsmith.user.name}}",
                       "labelTextSize": "0.875rem",
                       "rightColumn": 64,
                       "textAlign": "LEFT",
