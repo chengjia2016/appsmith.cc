@@ -37,8 +37,8 @@
           "type": "TEXT"
         },
         {
-          "key": "name",
-          "value": "{{appsmith.store.img}}",
+          "key": "id",
+          "value": "{{Table1.selectedRow.uid}}",
           "type": "TEXT"
         }
       ],
@@ -66,7 +66,7 @@
     "messages": [],
     "jsonPathKeys": [
       "FilePicker1.files[0].data",
-      "appsmith.store.img",
+      "Table1.selectedRow.uid",
       "{}"
     ],
     "userSetOnLoad": false,
