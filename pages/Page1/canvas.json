@@ -43,8 +43,10 @@
               "parentId": "0",
               "isLoading": false,
               "parentColumnSpace": 19.75,
+              "dynamicTriggerPathList": [],
               "leftColumn": 0,
-              "borderRadius": "0px",
+              "borderRadius": "1.5rem",
+              "dynamicBindingPathList": [],
               "children": [
                 {
                   "labelTextSize": "0.875rem",
@@ -55,7 +57,7 @@
                   "widgetId": "59rw5mx0bq",
                   "containerStyle": "none",
                   "topRow": 0,
-                  "bottomRow": 890,
+                  "bottomRow": 880,
                   "parentRowSpace": 1,
                   "isVisible": "true",
                   "canExtend": false,
@@ -1203,6 +1205,7 @@
                         "boxShadow": "none",
                         "buttonVariant": "PRIMARY"
                       },
+                      "borderColor": "#f6f7f8",
                       "dynamicPropertyPathList": [
                         {
                           "key": "schema.__root_schema__.children.date_of_birth.defaultValue"
@@ -1220,11 +1223,8 @@
                       "animateLoading": true,
                       "parentColumnSpace": 14.775390625,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 18,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        },
                         {
                           "key": "boxShadow"
                         },
@@ -1511,12 +1511,13 @@
                           "key": "schema.__root_schema__.children.customColumn1.borderRadius"
                         }
                       ],
+                      "borderWidth": "2",
                       "sourceData": "{{Table1.selectedRow}}",
                       "showReset": true,
                       "resetButtonLabel": "Reset",
                       "key": "j37kph2nhp",
-                      "backgroundColor": "#fff",
-                      "rightColumn": 43,
+                      "backgroundColor": "#86efac",
+                      "rightColumn": 64,
                       "autoGenerateForm": true,
                       "widgetId": "ex3tvvpddq",
                       "resetButtonStyles": {
@@ -1611,7 +1612,7 @@
                         }
                       },
                       "disabledWhenInvalid": true,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                      "borderRadius": "1.5rem"
                     }
                   ]
                 }
@@ -2372,7 +2373,7 @@
                   "key": "isVisible"
                 }
               ],
-              "borderRadius": "0px",
+              "borderRadius": "1.5rem",
               "children": [
                 {
                   "labelTextSize": "0.875rem",
