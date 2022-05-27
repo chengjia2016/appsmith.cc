@@ -34,6 +34,10 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "Page1_login": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "Page1_red.myFun2": {
       "unpublishedUserSetOnLoad": true,
       "publishedUserSetOnLoad": true
